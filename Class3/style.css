@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.parent{
+    height: 700px;
+    width: 500px;
+    background-color: rgb(2, 65, 44);
+    margin: 0 auto;
+   
+    display: flex;
+     /* this is for align item in x direcation (horizonatl) i.e main axis  */
+    justify-content: center;
+     /* this is for align item in y direcation (horizonatl) i.e cross axis  */
+    align-items: center;
+    /* give the gap b/w row and column of items */
+    gap: 20px;
+    /* managing the gap  */
+    align-content: center;
+    
+    flex-wrap: wrap;
+
+
+
+
+}
+
+.child{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(97, 223, 223);
+    font-size: 32px;
+    font-weight:bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(32, 38, 216);
+    align-content: center;
+}
