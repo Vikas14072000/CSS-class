@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    border: 15px solid rgb(200, 255, 0);
+    width:350px;
+    height: 150px;
+    background-color: rgb(21, 7, 116);
+    color:rgb(228, 13, 146);
+    font-weight: bolder;
+    padding: 30px;
+    font-size: 15px;
+      margin: 10px; }
+
+
+.gp{
+    margin: 20px;
+}
+
+#p3 {
+    background-color: brown;
+    position: ralative;
+    top: 10px;
+    left: 20px;
+}
+P{
+    font-size: 2em;
+}

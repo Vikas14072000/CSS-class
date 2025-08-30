@@ -1,0 +1,18 @@
+div{
+    width: 300px;
+    height: 500px;
+    background-color: blueviolet;
+    border: 5px solid black;
+    position: relative;
+    /* left: 50%; */
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 5px solid black;
+    position:sticky;
+    top: 100px;
+    left: 50px;
+
+}
